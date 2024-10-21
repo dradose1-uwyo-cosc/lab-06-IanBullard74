@@ -109,8 +109,6 @@ for most_occurred in letters:
     if letters[most_occurred] == letters_sorted[-1]:
         print(f"The letter that occurred the most is {most_occurred}")
 
-least_occurred = ""
-
 
 print("*"*75)
 # Output which letter occurred the least 
@@ -123,7 +121,7 @@ for least_occurred in letters:
 print("*"*75)
 
 # Output what the percentage of the string each character is, again in alphabetical
-
+print(f'All the following values are in %')
 for percentage in alphabetical:
     alphabetical[percentage] = round((alphabetical[percentage]/len(random_string)) * 100, 2)
 print(alphabetical)
